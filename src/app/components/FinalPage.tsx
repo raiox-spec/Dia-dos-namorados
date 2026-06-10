@@ -1,4 +1,5 @@
 import { ArrowButton } from "./MessagePage";
+import couplePhoto from "../../assets/foto-casal.jpeg";
 
 interface FinalPageProps {
   onBack: () => void;
@@ -11,7 +12,7 @@ export function FinalPage({ onBack }: FinalPageProps) {
         <div className="photo-frame">
           <img
             className="couple-photo"
-            src="/foto-casal.jpeg"
+            src={couplePhoto}
             alt="Casal abraçado olhando uma paisagem no campo"
           />
         </div>
